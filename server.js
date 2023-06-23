@@ -4,6 +4,7 @@ require("dotenv").config();
 const dbConfig = require("./config/dbConfig");
 const path = require("path");
 app.use(express.json());
+
 const userRoute = require("./routes/userRoute");
 const songsRoute = require("./routes/songsRoute");
 const adminRoute = require("./routes/adminRoute");

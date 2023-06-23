@@ -44,18 +44,21 @@ function Register() {
       <h1 className="text-5xl font-bold text-secondary poke2">Welcome </h1>
         <hr />
         <input
+          className="text-black"
           type="text"
           placeholder="Name"
           value={user.name}
           onChange={(e) => setUser({ ...user, name: e.target.value })}
         />
         <input
+        className="text-black"
           type="text"
           placeholder="Email"
           value={user.email}
           onChange={(e) => setUser({ ...user, email: e.target.value })}
         />
         <input
+        className="text-black"
           type="password"
           placeholder="Password"
           value={user.password}
